@@ -1,4 +1,4 @@
-package com.shweta.microservices.CitizenService;
+package com.shweta.microservices;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
