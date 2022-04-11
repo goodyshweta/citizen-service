@@ -1,0 +1,14 @@
+server:
+  port: 8081
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    password: shweta@123
+    url: jdbc:mysql://localhost:3307/CitizenDB
+    username: shweta
+  jpa:
+    database: MYSQL
+    database-platform: org.hibernate.dialect.MySQL8Dialect
+    hibernate:
+      ddl-auto: create
+    show-sql: true
